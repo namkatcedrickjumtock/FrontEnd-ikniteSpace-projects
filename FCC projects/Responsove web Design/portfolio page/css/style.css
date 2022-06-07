@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+    padding: 0px;
+}
+#projects{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    background-color: rgb(193, 198, 202);
+}
+#navbar ul li a{
+    margin: 0px 5px;
+}
+#projects .project-titles{
+    margin: 0px 10em;
+}
+#projects .project-titles .row .card{
+    margin: 10px;
+}
+#footer  ul {
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+}
+#navbar a{
+    color: #000;
+}
+#footer ul li{
+    padding: 5px;
+}
+#footer ul li a{
+    margin: 0px 5px;
+    text-decoration: none;
+    color: #000;
+}

@@ -1,0 +1,37 @@
+        body{
+            margin: 0%;
+            padding: 0%;
+            background-image: linear-gradient(#c4082177,rgba(5, 121, 49, 0.425)), url("https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHNvZnR3YXJlJTIwY29tcGFueXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+        }
+    .slope-div1 {
+  background-color: rgb(6, 31, 83);
+  height: 30vh;
+  width: 30%;
+  overflow: hidden;
+  position: relative;
+  transform: skewY(-60deg);
+}
+body .wrapper{
+    margin-top: -10em;
+}
+br{
+    color: #fff;
+}
+p{color: #fff;margin: 0%;}
+
+body .wrapper form input[type="radio"]{
+font-size: 50px;
+size: 20em;
+}
+body .form-section{
+    background-color: #c4082177;
+    padding: 10px 50px;
+}
+#btns{
+    height: 15px;
+    width: 15px;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300,400,5  00&family=Plus+Jakarta+Sans:wght@200&display=swap');
+*{
+    box-sizing: border-box ;
+}
+
+body{
+    margin: 0%;
+    display: flex;
+    font-family: 'Montserrate' sans-serif;
+}
+nav{
+    max-width: 300px;
+    background-color: rgba(216, 216, 216, 0.534);
+    height: 100vh;
+    border-right: 2px #777 solid;
+}
+main{
+    flex: 1;
+    max-height: 100vh;
+    overflow-y: scroll ;
+}
+nav a {
+    color: black;
+    display: block;
+    padding: 20px;
+    border-top: 2px rgb(126, 126, 126) solid;
+    text-decoration: none;
+    margin: 20px 0px;
+}
+nav header{
+    padding: 30px;
+}
+header{
+    font-size: 24px;
+    font-weight: 500;
+}
+main section{
+    line-height: 1.5;
+    padding: 0px 20px;
+}

@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+ header{
+     margin: 0%;
+ }
+ul{
+    padding: 0%;
+}
+#header nav ul li a {
+    margin: 10px 20px;
+    padding: 2px;
+    color: rgb(255, 255, 255);
+}
+#bdy-content .carousel .carousel-inner .carousel-caption{
+    background-color: rgba(44, 216, 10, 0.596);
+    margin-bottom: 12em;
+}
+
+#search-box{
+    background-color: rgba(44, 216, 10, 0.596);
+}
+#search-box form button{
+    color: #fff;
+    margin: 10px 0px;
+    width: 20%;
+}
+#video-section{
+    display: flex;
+}
+#video-section .container iframe{
+    margin: auto 12em;
+}
+
+/* product section design */
+body .products .container{
+    height: 50vh;
+    display: flex;
+    margin: 0px 10em;
+}
+body .products .container .card{
+    margin: 20px;
+
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
