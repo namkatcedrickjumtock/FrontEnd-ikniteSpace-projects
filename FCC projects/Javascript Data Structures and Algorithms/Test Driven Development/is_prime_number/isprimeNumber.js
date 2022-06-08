@@ -16,27 +16,17 @@
 
 function isPrime(num) {
 
-    if (num < 2) {
-        console.log("first");
-        return false
-    }
+    let maximumDivisibleValue = Math.sqrt(num) 
+    if (num < 2) return false;
+    if (num == 2) return true;
 
-    if ((num % 2 == 0 || num % 3 == 0 || num % 7 == 0 || num % 5 == 0) && (num > 7)) {
-        console.log("second");
-        return false
-
-    } 
-    if (num == 4) return false
-    if (num == 6) return false
-
-
-    if ((num % 2 != 0 && num % 3 != 0 && num % 7 != 0 && num % 5 != 0) && num <= 7) {
-
-        console.log("third");
-
-        return false
+    for (let itemCount = 2; itemCount < maximumDivisibleValue; itemCount++) {
+        if (num % itemCount == 0) {
+            return false;
+        }
     }
     return true
+
 
 }
 
