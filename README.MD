@@ -1,1 +1,7 @@
-# These are projects files that are open contributions
+#### Iknite.Space Training Challenges 
+
+*The Task Included*
+- Codwars problems with TDD
+- FreeCodeCamp Html and JS certifications Task
+
+
